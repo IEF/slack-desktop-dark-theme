@@ -8703,3 +8703,6 @@ a, a:link, a:visited {
 .c-file__slide--meta {
     background: #222 !important;
 }
+.c-file_container {
+    background: #222 !important;
+}
