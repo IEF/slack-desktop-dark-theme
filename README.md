@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Fetch our CSS in parallel ahead of time
   //const cssPath = 'https://raw.githubusercontent.com/jpdillingham/slack-desktop-dark-theme/master/custom.css';
-  const cssPath = 'https://raw.githubusercontent.com/pimvandenbroek/slack-desktop-dark/master/dark.css';
+  const cssPath = 'https://raw.githubusercontent.com/Possemaster/slack-desktop-dark/master/dark.css';
   let cssPromise = fetch(cssPath).then(response => response.text());
 
   let experimentalcss = `
