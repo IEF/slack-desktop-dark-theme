@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # slack-desktop-dark-theme
 My Frankensteined CSS to add a dark theme to the Slack desktop app, based on [slack-black-theme](https://github.com/d-fay/slack-black-theme).
 
@@ -42,8 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
   let webviews = document.querySelectorAll(".TeamView webview");
 
   // Fetch our CSS in parallel ahead of time
-  //const cssPath = 'https://raw.githubusercontent.com/jpdillingham/slack-desktop-dark-theme/master/custom.css';
-  const cssPath = 'https://raw.githubusercontent.com/Possemaster/slack-desktop-dark/master/dark.css';
+  const cssPath = 'https://raw.githubusercontent.com/IEF/slack-desktop-dark-theme/master/dark.css';
   let cssPromise = fetch(cssPath).then(response => response.text());
 
   let experimentalcss = `
@@ -76,4 +74,3 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 ```
->>>>>>> a19cee36c5d93e9426045c0e0f6120c3b0a07da1
